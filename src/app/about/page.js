@@ -1,8 +1,10 @@
+import Herosection from "../components/heroSection";
+
 const page = () => {
   return (
     <>
       <div>
-        <p>page</p>
+        <Herosection title={"OUR STORY"} imageUrl={"/about1.svg"} />
       </div>
     </>
   );
